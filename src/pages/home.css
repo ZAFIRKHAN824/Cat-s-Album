@@ -1,0 +1,22 @@
+#searchresult{
+    position: absolute;
+    right: 390px;
+    text-align: center;
+    font-size: 20px;
+    z-index: 3 ;
+    width: 38%;
+
+}
+.searchrow{
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: antiquewhite;
+
+}
+.searchrow:hover{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}

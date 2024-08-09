@@ -1,0 +1,83 @@
+.mainheader{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+#header{
+  text-align: center;
+  border: 2px solid rgb(146, 68, 146);
+  background-color: rgb(179, 112, 242);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100px;
+  padding-top: 17px;
+  z-index: 1;
+ 
+}
+
+#favButt{
+  position:absolute;
+  display: inline-block;
+margin-left: 1050px;
+margin-top: -80px;
+
+z-index: 1
+}
+#option{
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 40px;
+  text-align: left;
+  cursor: pointer;
+  width: 110px;
+  z-index: 2;
+}
+
+#searchBar{
+  margin-top: 100px;
+  text-align: center;
+
+}
+input{
+  height: 50px;
+  width: 500px;
+  font-size: 25px!important;
+  border-radius: 20px;
+  text-align: center;
+}
+#search{
+height: 40px;
+width: 100px;
+margin-left: 5px;
+}
+
+img{
+cursor: pointer;
+margin-top: 50px;
+margin-left: 50px;
+height: 200px;
+width: 200px;
+}
+img:hover{
+ scale: 1.01;
+}
+.imagearea{
+  /* position: absolute; */
+  /* z-index: -1; */
+  display: inline-block;
+
+}
+#catName{
+  text-align: center;
+}
+#fav{
+  position: absolute;
+  /* border-radius: 30px; */
+  width: 10px;
+  margin-left: -40px;
+  margin-top: 50px;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+
+}

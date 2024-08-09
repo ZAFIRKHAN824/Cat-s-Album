@@ -1,0 +1,16 @@
+.imagearea{
+    position: relative;
+}
+#DleteButt{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left:50px;
+    text-align: center;
+    padding: 0;
+
+}
+#catName{
+    font-size: 20px;
+}

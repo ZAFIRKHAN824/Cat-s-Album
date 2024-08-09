@@ -1,0 +1,30 @@
+#slideBar{
+    position: fixed;
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    z-index: 100;
+    font-size: 30px;
+    margin-top: 100px;    
+    /* background-color: rgb(218, 222, 210); */
+    animation: sliderbar 1s linear;
+    background-color: rgb(185, 233, 233);
+    overflow: auto;
+    
+}
+@keyframes sliderbar {  
+    from {
+        left: -100%;
+    }
+    to {
+        left:  0%
+    }
+}
+.rows{
+    margin-top: 50px;
+    cursor: pointer;
+}
+.rows:hover{
+    scale: 1.1;
+}
