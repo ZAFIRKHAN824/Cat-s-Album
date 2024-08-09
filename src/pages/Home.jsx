@@ -65,7 +65,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    setFavPic(JSON.parse(localStorage.getItem("favCatObj")));
+    setFavPic(JSON.parse(localStorage.getItem("favCatObj")) || [])
     setPageMounted(true);
   }, []);
 
